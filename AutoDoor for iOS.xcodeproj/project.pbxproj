@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9EA26F11E12012200349794 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EA26F01E12012200349794 /* AppDelegate.swift */; };
+		A9EA26F31E12012200349794 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EA26F21E12012200349794 /* ViewController.swift */; };
+		A9EA26F61E12012200349794 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9EA26F41E12012200349794 /* Main.storyboard */; };
+		A9EA26F81E12012200349794 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9EA26F71E12012200349794 /* Assets.xcassets */; };
+		A9EA26FB1E12012200349794 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9EA26F91E12012200349794 /* LaunchScreen.storyboard */; };
+		A9EA27061E12012200349794 /* AutoDoor_for_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EA27051E12012200349794 /* AutoDoor_for_iOSTests.swift */; };
+		A9EA27111E12012200349794 /* AutoDoor_for_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EA27101E12012200349794 /* AutoDoor_for_iOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9EA27021E12012200349794 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9EA26E51E12012100349794 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9EA26EC1E12012200349794;
+			remoteInfo = "AutoDoor for iOS";
+		};
+		A9EA270D1E12012200349794 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9EA26E51E12012100349794 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9EA26EC1E12012200349794;
+			remoteInfo = "AutoDoor for iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9EA26ED1E12012200349794 /* AutoDoor for iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AutoDoor for iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9EA26F01E12012200349794 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9EA26F21E12012200349794 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9EA26F51E12012200349794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9EA26F71E12012200349794 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9EA26FA1E12012200349794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9EA26FC1E12012200349794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9EA27011E12012200349794 /* AutoDoor for iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AutoDoor for iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9EA27051E12012200349794 /* AutoDoor_for_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoDoor_for_iOSTests.swift; sourceTree = "<group>"; };
+		A9EA27071E12012200349794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9EA270C1E12012200349794 /* AutoDoor for iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AutoDoor for iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9EA27101E12012200349794 /* AutoDoor_for_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoDoor_for_iOSUITests.swift; sourceTree = "<group>"; };
+		A9EA27121E12012200349794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9EA26EA1E12012200349794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9EA26FE1E12012200349794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9EA27091E12012200349794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9EA26E41E12012100349794 = {
+			isa = PBXGroup;
+			children = (
+				A9EA26EF1E12012200349794 /* AutoDoor for iOS */,
+				A9EA27041E12012200349794 /* AutoDoor for iOSTests */,
+				A9EA270F1E12012200349794 /* AutoDoor for iOSUITests */,
+				A9EA26EE1E12012200349794 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9EA26EE1E12012200349794 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9EA26ED1E12012200349794 /* AutoDoor for iOS.app */,
+				A9EA27011E12012200349794 /* AutoDoor for iOSTests.xctest */,
+				A9EA270C1E12012200349794 /* AutoDoor for iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9EA26EF1E12012200349794 /* AutoDoor for iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A9EA26F01E12012200349794 /* AppDelegate.swift */,
+				A9EA26F21E12012200349794 /* ViewController.swift */,
+				A9EA26F41E12012200349794 /* Main.storyboard */,
+				A9EA26F71E12012200349794 /* Assets.xcassets */,
+				A9EA26F91E12012200349794 /* LaunchScreen.storyboard */,
+				A9EA26FC1E12012200349794 /* Info.plist */,
+			);
+			path = "AutoDoor for iOS";
+			sourceTree = "<group>";
+		};
+		A9EA27041E12012200349794 /* AutoDoor for iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9EA27051E12012200349794 /* AutoDoor_for_iOSTests.swift */,
+				A9EA27071E12012200349794 /* Info.plist */,
+			);
+			path = "AutoDoor for iOSTests";
+			sourceTree = "<group>";
+		};
+		A9EA270F1E12012200349794 /* AutoDoor for iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9EA27101E12012200349794 /* AutoDoor_for_iOSUITests.swift */,
+				A9EA27121E12012200349794 /* Info.plist */,
+			);
+			path = "AutoDoor for iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9EA26EC1E12012200349794 /* AutoDoor for iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9EA27151E12012200349794 /* Build configuration list for PBXNativeTarget "AutoDoor for iOS" */;
+			buildPhases = (
+				A9EA26E91E12012200349794 /* Sources */,
+				A9EA26EA1E12012200349794 /* Frameworks */,
+				A9EA26EB1E12012200349794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AutoDoor for iOS";
+			productName = "AutoDoor for iOS";
+			productReference = A9EA26ED1E12012200349794 /* AutoDoor for iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9EA27001E12012200349794 /* AutoDoor for iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9EA27181E12012200349794 /* Build configuration list for PBXNativeTarget "AutoDoor for iOSTests" */;
+			buildPhases = (
+				A9EA26FD1E12012200349794 /* Sources */,
+				A9EA26FE1E12012200349794 /* Frameworks */,
+				A9EA26FF1E12012200349794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9EA27031E12012200349794 /* PBXTargetDependency */,
+			);
+			name = "AutoDoor for iOSTests";
+			productName = "AutoDoor for iOSTests";
+			productReference = A9EA27011E12012200349794 /* AutoDoor for iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9EA270B1E12012200349794 /* AutoDoor for iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9EA271B1E12012200349794 /* Build configuration list for PBXNativeTarget "AutoDoor for iOSUITests" */;
+			buildPhases = (
+				A9EA27081E12012200349794 /* Sources */,
+				A9EA27091E12012200349794 /* Frameworks */,
+				A9EA270A1E12012200349794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9EA270E1E12012200349794 /* PBXTargetDependency */,
+			);
+			name = "AutoDoor for iOSUITests";
+			productName = "AutoDoor for iOSUITests";
+			productReference = A9EA270C1E12012200349794 /* AutoDoor for iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9EA26E51E12012100349794 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Dennis Xiang";
+				TargetAttributes = {
+					A9EA26EC1E12012200349794 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					A9EA27001E12012200349794 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A9EA26EC1E12012200349794;
+					};
+					A9EA270B1E12012200349794 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A9EA26EC1E12012200349794;
+					};
+				};
+			};
+			buildConfigurationList = A9EA26E81E12012100349794 /* Build configuration list for PBXProject "AutoDoor for iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9EA26E41E12012100349794;
+			productRefGroup = A9EA26EE1E12012200349794 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9EA26EC1E12012200349794 /* AutoDoor for iOS */,
+				A9EA27001E12012200349794 /* AutoDoor for iOSTests */,
+				A9EA270B1E12012200349794 /* AutoDoor for iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9EA26EB1E12012200349794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9EA26FB1E12012200349794 /* LaunchScreen.storyboard in Resources */,
+				A9EA26F81E12012200349794 /* Assets.xcassets in Resources */,
+				A9EA26F61E12012200349794 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9EA26FF1E12012200349794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9EA270A1E12012200349794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9EA26E91E12012200349794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9EA26F31E12012200349794 /* ViewController.swift in Sources */,
+				A9EA26F11E12012200349794 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9EA26FD1E12012200349794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9EA27061E12012200349794 /* AutoDoor_for_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9EA27081E12012200349794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9EA27111E12012200349794 /* AutoDoor_for_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9EA27031E12012200349794 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9EA26EC1E12012200349794 /* AutoDoor for iOS */;
+			targetProxy = A9EA27021E12012200349794 /* PBXContainerItemProxy */;
+		};
+		A9EA270E1E12012200349794 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9EA26EC1E12012200349794 /* AutoDoor for iOS */;
+			targetProxy = A9EA270D1E12012200349794 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9EA26F41E12012200349794 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9EA26F51E12012200349794 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9EA26F91E12012200349794 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9EA26FA1E12012200349794 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9EA27131E12012200349794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9EA27141E12012200349794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9EA27161E12012200349794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AutoDoor for iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dennisxiang.AutoDoor-for-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A9EA27171E12012200349794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AutoDoor for iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dennisxiang.AutoDoor-for-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A9EA27191E12012200349794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AutoDoor for iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dennisxiang.AutoDoor-for-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoDoor for iOS.app/AutoDoor for iOS";
+			};
+			name = Debug;
+		};
+		A9EA271A1E12012200349794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AutoDoor for iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dennisxiang.AutoDoor-for-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoDoor for iOS.app/AutoDoor for iOS";
+			};
+			name = Release;
+		};
+		A9EA271C1E12012200349794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "AutoDoor for iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dennisxiang.AutoDoor-for-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "AutoDoor for iOS";
+			};
+			name = Debug;
+		};
+		A9EA271D1E12012200349794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "AutoDoor for iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dennisxiang.AutoDoor-for-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "AutoDoor for iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9EA26E81E12012100349794 /* Build configuration list for PBXProject "AutoDoor for iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9EA27131E12012200349794 /* Debug */,
+				A9EA27141E12012200349794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9EA27151E12012200349794 /* Build configuration list for PBXNativeTarget "AutoDoor for iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9EA27161E12012200349794 /* Debug */,
+				A9EA27171E12012200349794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9EA27181E12012200349794 /* Build configuration list for PBXNativeTarget "AutoDoor for iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9EA27191E12012200349794 /* Debug */,
+				A9EA271A1E12012200349794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9EA271B1E12012200349794 /* Build configuration list for PBXNativeTarget "AutoDoor for iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9EA271C1E12012200349794 /* Debug */,
+				A9EA271D1E12012200349794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9EA26E51E12012100349794 /* Project object */;
+}
